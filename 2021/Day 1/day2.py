@@ -1,11 +1,4 @@
-nOLines = 0
-pre1 = 100000
-pre2 = 100000
-pre3 = 100000
-for line in open("day1.txt","r").readlines():
-    if pre2+pre3+int(line) > pre1+pre2+pre3:
-        nOLines += 1
-    pre1 = pre2
-    pre2 = pre3
-    pre3 = int(line)
-print(nOLines) 
+n, a = 0, open("day1.txt","r").readlines()
+for i in range(len(a)):
+    n +=  int(a[i-2])+int(a[i-1])+int(a[i]) > int(a[i-3])+int(a[i-2])+int(a[i-1])
+print(n) 
