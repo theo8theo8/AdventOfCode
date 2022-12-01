@@ -1,4 +1,4 @@
-# AdventOfCode 2020/2021
+# AdventOfCode 2020/2021/2022
 My solutions to Advent of Code 2020, 2021 and 2022.
 2020 solutions are made in Java,
 2021 and 2022 solutions are made in Python
