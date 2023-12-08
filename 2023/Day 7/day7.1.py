@@ -35,8 +35,3 @@ with open('day7.txt') as f:
     for i in range(len(res)):
         tot += res[i][1] * (i+1)
     print(tot)
-    
-    
-
-    
-
